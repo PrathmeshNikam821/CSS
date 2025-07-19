@@ -1,0 +1,22 @@
+h1{
+  color: red;
+}
+
+#heading {
+  color: blue;
+}
+#div{
+  color: blue;
+}
+
+h2{
+  color: violet;
+
+}
+.class {
+  color:rgb(159, 112, 77) ; 
+}
+
+.first , #second {
+  background-color: aqua;
+}
