@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Units</title>
+    <style>
+      .box {
+        height: 100px;
+        width: 200px;
+        padding: 10px;
+        /* padding-left: 10px; */
+      }
+
+      #box1 {
+        background-image: url(download.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      #box2 {
+        background-color: pink;
+        visibility: hidden;
+      }
+      #box3 {
+        /* background-color: yellow; */
+        /* visibility: visible; */
+        background: green url(download.png) no-repeat center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- pixels are fixed-size units , reperesents dots on computer screen  -->
+    <div id="box1" class="box"></div>
+    <br />
+    <div id="box2" class="box">box 2</div>
+    <br />
+    <div id="box3" class="box"></div>
+    <br />
+  </body>
+</html>
