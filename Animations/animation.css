@@ -1,0 +1,47 @@
+.box {
+  height: 75px;
+  width: 75px;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* margin: 40px; */
+  animation-name: ghumakadd2;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  position: relative;
+
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+  /* animation: ghumakadd 2s ease-in 1s infinite alternate-reverse; */
+
+  background-color: lime;
+}
+
+@keyframes ghumakadd {
+  from {
+    left: 10px;
+  }
+
+  to {
+    left: 200px;
+  }
+}
+
+@keyframes ghumakadd2 {
+  0% {
+    left: 10px;
+  }
+
+  50% {
+    left: 50px;
+  }
+
+  60% {
+    left: 180px;
+  }
+
+  100% {
+    left: 300px;
+  }
+}
